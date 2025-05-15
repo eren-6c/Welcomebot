@@ -78,7 +78,7 @@ class Program
 
 <@{OWNER_ID}>, this is a **system test** of our welcome message.
 
-**Verification:** <#1324968508630630431>  
+**Verification:** <#1372252493395792004>  
 **Tickets:** <#1287465924487807168>  
 **Premium:** <#1287465924487807168>  
 
@@ -134,7 +134,7 @@ class Program
             .WithDescription(string.Join("\n",
                 $"{user.Mention} {(isTest ? "system check" : $"joined {user.Guild.Name}")}",
                 "",
-                "• **Verify:** <#1324968508630630431>",
+                "• **Verify:** <#1372252493395792004>",
                 "• **Support:** <#1287465924487807168>",
                 "• **Premium:** <#1287465924487807168>",
                 "",
